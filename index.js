@@ -29,10 +29,10 @@ function currentLine (line){
       message += i+1 + ". " + line[i] + ", "
   
     }
-    message =message.slice(0, message.length-2)
+    message = message.slice(0, message.length-2)
       
-    
+
   }
-return message
   
+return message
 }
